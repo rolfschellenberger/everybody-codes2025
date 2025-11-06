@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.rolf</groupId>
-    <artifactId>advent2024</artifactId>
+    <artifactId>everybody-codes2025</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>com.rolf.advent2024</name>
+    <name>com.rolf.everybody-codes2025</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
