@@ -65,13 +65,13 @@ class Solve : Day() {
 
         val left = matrix.copy()
         left.allPoints().forEach { point ->
-            if (point.x > start.x) {
+            if (point.y == volcano.y && point.x > start.x) {
                 left.set(point, ".")
             }
         }
         val right = matrix.copy()
         right.allPoints().forEach { point ->
-            if (point.x < start.x) {
+            if (point.y == volcano.y && point.x < start.x) {
                 right.set(point, ".")
             }
         }
@@ -120,11 +120,7 @@ class Solve : Day() {
             }
 
             if (bestPath != null) {
-                if (bestPath.score > 48680) {
-                    println(48680)
-                } else {
-                    println(bestPath.score)
-                }
+                println(bestPath.score)
                 return
             }
         }
